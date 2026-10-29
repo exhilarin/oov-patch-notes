@@ -101,6 +101,7 @@ def main():
     ap.add_argument("--max-len", type=int, default=512)
     ap.add_argument("--words", type=int, default=256, help="words per window")
     ap.add_argument("--grad-ckpt", action="store_true", help="gradient checkpointing (saves GPU memory)")
+    ap.add_argument("--freeze-embeddings", action="store_true", help="do not train the word embeddings")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
@@ -114,6 +115,10 @@ def main():
         name, num_labels=len(LABELS), id2label=dict(enumerate(LABELS)), label2id=L2I, dtype=torch.float32).to(device)
     if args.grad_ckpt:
         model.gradient_checkpointing_enable()
+    if args.freeze_embeddings:
+        # DeBERTa-v3 has a 128k vocabulary (98M embedding parameters); their gradients and Adam
+        # states do not fit next to the rest of the model on a 4 GB GPU
+        model.get_input_embeddings().weight.requires_grad_(False)
     pad = tok.pad_token_id
 
     data = {s: load(s) for s in ("train", "val", "test", "test_unseen_games")}
@@ -123,7 +128,8 @@ def main():
     print(f"{name}: {len(train_rows)} train examples -> {len(train)} windows on {device}")
 
     loader = DataLoader(train, batch_size=args.batch_size, shuffle=True, collate_fn=lambda b: collate(b, pad))
-    opt = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=0.01)
+    opt = torch.optim.AdamW([p for p in model.parameters() if p.requires_grad], lr=args.lr, weight_decay=0.01,
+                            foreach=False)
     steps = args.epochs * math.ceil(len(train) / (args.batch_size * args.accum))
     sched = get_linear_schedule_with_warmup(opt, int(0.06 * steps), steps)
     scaler = torch.amp.GradScaler(enabled=device == "cuda")
@@ -155,6 +161,8 @@ def main():
               for s in ("val", "test", "test_unseen_games")}
     save_result(args.model, group, scores, {"checkpoint": name, "train_examples": len(train_rows),
                                             "epochs": args.epochs, "lr": args.lr, "history": history,
+                                            "batch_size": args.batch_size, "accum": args.accum,
+                                            "grad_ckpt": args.grad_ckpt, "freeze_embeddings": args.freeze_embeddings,
                                             "train_minutes": round((time.time() - t0) / 60, 1)})
 
 

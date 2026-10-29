@@ -21,14 +21,15 @@ bilstm:          ## 3b. BiLSTM-CRF from scratch, 3 seeds (GPU recommended)
 
 transformers:    ## 3c. BERT (baseline), DeBERTa-v3 and ModernBERT (new) fine-tuning (GPU)
 	$(SRC) $(PY) train_transformer.py --model bert --train-size 20000
-	$(SRC) $(PY) train_transformer.py --model deberta --train-size 20000 --batch-size 2 --accum 4 --grad-ckpt
+	$(SRC) $(PY) train_transformer.py --model deberta --train-size 20000 --batch-size 2 --accum 4 --grad-ckpt --freeze-embeddings
 	$(SRC) $(PY) train_transformer.py --model modernbert --train-size 20000 --batch-size 2 --accum 4 --grad-ckpt
 
 zeroshot:        ## 3d. CRF spans / gold spans + Laya zero-shot typing (needs models/crf.pkl)
 	$(SRC) $(PY) zero_shot_laya.py
 
-benchmark:       ## 4. results/benchmark.md + figures
+benchmark:       ## 4. results/benchmark.md + figures, results/error_analysis.md
 	$(SRC) $(PY) benchmark.py
+	$(SRC) $(PY) error_analysis.py
 
 clean:
 	rm -rf .cache models
