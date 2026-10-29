@@ -1,0 +1,17 @@
+# Python 3.12. Install PyTorch with CUDA 13.0 (or the CPU build) first:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1+cu130
+transformers==5.19.0
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pyyaml==6.0.3
+seqeval==1.2.2
+sklearn-crfsuite==0.5.0
+pytorch-crf==0.7.2
+langdetect==1.0.9
+accelerate==1.15.0
+sentencepiece==0.2.2
+protobuf==7.36.2
+laya==0.4.2
