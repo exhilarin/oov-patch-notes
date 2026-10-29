@@ -1,0 +1,334 @@
+{
+ "model": "bilstm_crf",
+ "group": "baseline",
+ "val": {
+  "span_macro_f1": 0.4178,
+  "span_micro_f1": 0.5239,
+  "boundary_f1": 0.8096,
+  "token_accuracy": 0.6138,
+  "per_type": {
+   "FIX": {
+    "precision": 0.7548,
+    "recall": 0.6876,
+    "f1-score": 0.7197,
+    "support": 15405.0
+   },
+   "KNOWN_ISSUE": {
+    "precision": 0.6601,
+    "recall": 0.4298,
+    "f1-score": 0.5206,
+    "support": 1012.0
+   },
+   "NEW_CONTENT": {
+    "precision": 0.4509,
+    "recall": 0.4757,
+    "f1-score": 0.463,
+    "support": 8286.0
+   },
+   "IMPROVEMENT": {
+    "precision": 0.3584,
+    "recall": 0.1061,
+    "f1-score": 0.1638,
+    "support": 3185.0
+   },
+   "BALANCE": {
+    "precision": 0.5207,
+    "recall": 0.4273,
+    "f1-score": 0.4694,
+    "support": 4954.0
+   },
+   "GAMEPLAY": {
+    "precision": 0.2125,
+    "recall": 0.3101,
+    "f1-score": 0.2522,
+    "support": 2738.0
+   },
+   "PERFORMANCE": {
+    "precision": 0.5469,
+    "recall": 0.4824,
+    "f1-score": 0.5127,
+    "support": 1196.0
+   },
+   "UI": {
+    "precision": 0.4721,
+    "recall": 0.571,
+    "f1-score": 0.5169,
+    "support": 4198.0
+   },
+   "AUDIO": {
+    "precision": 0.6335,
+    "recall": 0.5807,
+    "f1-score": 0.606,
+    "support": 1381.0
+   },
+   "GRAPHICS": {
+    "precision": 0.3382,
+    "recall": 0.5246,
+    "f1-score": 0.4113,
+    "support": 2057.0
+   },
+   "LOCALIZATION": {
+    "precision": 0.6127,
+    "recall": 0.3204,
+    "f1-score": 0.4208,
+    "support": 543.0
+   },
+   "MULTIPLAYER": {
+    "precision": 0.2718,
+    "recall": 0.4362,
+    "f1-score": 0.3349,
+    "support": 1043.0
+   },
+   "CONTROLS": {
+    "precision": 0.2857,
+    "recall": 0.0229,
+    "f1-score": 0.0424,
+    "support": 349.0
+   },
+   "AI": {
+    "precision": 0.3778,
+    "recall": 0.4721,
+    "f1-score": 0.4197,
+    "support": 1146.0
+   },
+   "MODDING": {
+    "precision": 0.7181,
+    "recall": 0.3632,
+    "f1-score": 0.4824,
+    "support": 1038.0
+   },
+   "ACHIEVEMENT": {
+    "precision": 0.3769,
+    "recall": 0.262,
+    "f1-score": 0.3091,
+    "support": 187.0
+   }
+  },
+  "span_macro_f1_std": 0.0074,
+  "span_micro_f1_std": 0.0066,
+  "boundary_f1_std": 0.0042,
+  "token_accuracy_std": 0.0084
+ },
+ "test": {
+  "span_macro_f1": 0.4235,
+  "span_micro_f1": 0.5245,
+  "boundary_f1": 0.8102,
+  "token_accuracy": 0.6099,
+  "per_type": {
+   "FIX": {
+    "precision": 0.7564,
+    "recall": 0.6936,
+    "f1-score": 0.7237,
+    "support": 15059.0
+   },
+   "KNOWN_ISSUE": {
+    "precision": 0.7072,
+    "recall": 0.456,
+    "f1-score": 0.5545,
+    "support": 943.0
+   },
+   "NEW_CONTENT": {
+    "precision": 0.4553,
+    "recall": 0.4651,
+    "f1-score": 0.4602,
+    "support": 9193.0
+   },
+   "IMPROVEMENT": {
+    "precision": 0.3941,
+    "recall": 0.1077,
+    "f1-score": 0.1692,
+    "support": 3733.0
+   },
+   "BALANCE": {
+    "precision": 0.5395,
+    "recall": 0.4494,
+    "f1-score": 0.4904,
+    "support": 5044.0
+   },
+   "GAMEPLAY": {
+    "precision": 0.191,
+    "recall": 0.3214,
+    "f1-score": 0.2396,
+    "support": 2760.0
+   },
+   "PERFORMANCE": {
+    "precision": 0.5071,
+    "recall": 0.4731,
+    "f1-score": 0.4895,
+    "support": 1135.0
+   },
+   "UI": {
+    "precision": 0.4723,
+    "recall": 0.5593,
+    "f1-score": 0.5121,
+    "support": 3898.0
+   },
+   "AUDIO": {
+    "precision": 0.6243,
+    "recall": 0.6,
+    "f1-score": 0.6119,
+    "support": 950.0
+   },
+   "GRAPHICS": {
+    "precision": 0.325,
+    "recall": 0.5215,
+    "f1-score": 0.4005,
+    "support": 1695.0
+   },
+   "LOCALIZATION": {
+    "precision": 0.5991,
+    "recall": 0.3291,
+    "f1-score": 0.4248,
+    "support": 395.0
+   },
+   "MULTIPLAYER": {
+    "precision": 0.3063,
+    "recall": 0.4097,
+    "f1-score": 0.3506,
+    "support": 1274.0
+   },
+   "CONTROLS": {
+    "precision": 0.6042,
+    "recall": 0.0692,
+    "f1-score": 0.1242,
+    "support": 419.0
+   },
+   "AI": {
+    "precision": 0.379,
+    "recall": 0.5391,
+    "f1-score": 0.4451,
+    "support": 831.0
+   },
+   "MODDING": {
+    "precision": 0.6578,
+    "recall": 0.3256,
+    "f1-score": 0.4356,
+    "support": 909.0
+   },
+   "ACHIEVEMENT": {
+    "precision": 0.2727,
+    "recall": 0.2459,
+    "f1-score": 0.2586,
+    "support": 183.0
+   }
+  },
+  "span_macro_f1_std": 0.0064,
+  "span_micro_f1_std": 0.0096,
+  "boundary_f1_std": 0.0035,
+  "token_accuracy_std": 0.0118
+ },
+ "test_unseen_games": {
+  "span_macro_f1": 0.3745,
+  "span_micro_f1": 0.4698,
+  "boundary_f1": 0.7981,
+  "token_accuracy": 0.5468,
+  "per_type": {
+   "FIX": {
+    "precision": 0.638,
+    "recall": 0.692,
+    "f1-score": 0.6639,
+    "support": 15165.0
+   },
+   "KNOWN_ISSUE": {
+    "precision": 0.6941,
+    "recall": 0.276,
+    "f1-score": 0.3949,
+    "support": 2261.0
+   },
+   "NEW_CONTENT": {
+    "precision": 0.3694,
+    "recall": 0.3948,
+    "f1-score": 0.3817,
+    "support": 7764.0
+   },
+   "IMPROVEMENT": {
+    "precision": 0.3594,
+    "recall": 0.0531,
+    "f1-score": 0.0925,
+    "support": 4765.0
+   },
+   "BALANCE": {
+    "precision": 0.4327,
+    "recall": 0.3762,
+    "f1-score": 0.4025,
+    "support": 4048.0
+   },
+   "GAMEPLAY": {
+    "precision": 0.1628,
+    "recall": 0.2249,
+    "f1-score": 0.1889,
+    "support": 3215.0
+   },
+   "PERFORMANCE": {
+    "precision": 0.3976,
+    "recall": 0.3523,
+    "f1-score": 0.3736,
+    "support": 1141.0
+   },
+   "UI": {
+    "precision": 0.403,
+    "recall": 0.5328,
+    "f1-score": 0.4589,
+    "support": 4493.0
+   },
+   "AUDIO": {
+    "precision": 0.5879,
+    "recall": 0.5949,
+    "f1-score": 0.5914,
+    "support": 1422.0
+   },
+   "GRAPHICS": {
+    "precision": 0.3556,
+    "recall": 0.4384,
+    "f1-score": 0.3927,
+    "support": 2940.0
+   },
+   "LOCALIZATION": {
+    "precision": 0.7922,
+    "recall": 0.4969,
+    "f1-score": 0.6107,
+    "support": 813.0
+   },
+   "MULTIPLAYER": {
+    "precision": 0.1602,
+    "recall": 0.189,
+    "f1-score": 0.1734,
+    "support": 1069.0
+   },
+   "CONTROLS": {
+    "precision": 0.641,
+    "recall": 0.0828,
+    "f1-score": 0.1466,
+    "support": 302.0
+   },
+   "AI": {
+    "precision": 0.3643,
+    "recall": 0.44,
+    "f1-score": 0.3986,
+    "support": 900.0
+   },
+   "MODDING": {
+    "precision": 0.5739,
+    "recall": 0.2694,
+    "f1-score": 0.3667,
+    "support": 850.0
+   },
+   "ACHIEVEMENT": {
+    "precision": 0.3731,
+    "recall": 0.2778,
+    "f1-score": 0.3185,
+    "support": 180.0
+   }
+  },
+  "span_macro_f1_std": 0.0089,
+  "span_micro_f1_std": 0.0123,
+  "boundary_f1_std": 0.0033,
+  "token_accuracy_std": 0.0125
+ },
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "epochs": 6
+}

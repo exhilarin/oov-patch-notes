@@ -1,8 +1,6 @@
 .venv
-.venv/
 .cache/
 models/
 __pycache__/
 *.pyc
-.cache_collect.log
 data/processed/*.jsonl

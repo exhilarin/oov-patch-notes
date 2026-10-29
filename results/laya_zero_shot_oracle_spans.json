@@ -1,0 +1,237 @@
+{
+ "model": "laya_zero_shot_oracle_spans",
+ "group": "new",
+ "test": {
+  "span_macro_f1": 0.2181,
+  "span_micro_f1": 0.3371,
+  "boundary_f1": 1.0,
+  "token_accuracy": 0.3634,
+  "per_type": {
+   "FIX": {
+    "precision": 0.6367,
+    "recall": 0.7164,
+    "f1-score": 0.6742,
+    "support": 2211.0
+   },
+   "KNOWN_ISSUE": {
+    "precision": 0.3085,
+    "recall": 0.2377,
+    "f1-score": 0.2685,
+    "support": 122.0
+   },
+   "NEW_CONTENT": {
+    "precision": 0.8444,
+    "recall": 0.0299,
+    "f1-score": 0.0577,
+    "support": 1273.0
+   },
+   "IMPROVEMENT": {
+    "precision": 0.1096,
+    "recall": 0.4938,
+    "f1-score": 0.1794,
+    "support": 480.0
+   },
+   "BALANCE": {
+    "precision": 0.5764,
+    "recall": 0.1137,
+    "f1-score": 0.1899,
+    "support": 730.0
+   },
+   "GAMEPLAY": {
+    "precision": 0.0805,
+    "recall": 0.1543,
+    "f1-score": 0.1058,
+    "support": 363.0
+   },
+   "PERFORMANCE": {
+    "precision": 0.4432,
+    "recall": 0.2393,
+    "f1-score": 0.3108,
+    "support": 163.0
+   },
+   "UI": {
+    "precision": 0.4215,
+    "recall": 0.0881,
+    "f1-score": 0.1457,
+    "support": 579.0
+   },
+   "AUDIO": {
+    "precision": 0.3514,
+    "recall": 0.0929,
+    "f1-score": 0.1469,
+    "support": 140.0
+   },
+   "GRAPHICS": {
+    "precision": 0.094,
+    "recall": 0.1073,
+    "f1-score": 0.1002,
+    "support": 233.0
+   },
+   "LOCALIZATION": {
+    "precision": 0.4068,
+    "recall": 0.3038,
+    "f1-score": 0.3478,
+    "support": 79.0
+   },
+   "MULTIPLAYER": {
+    "precision": 0.3036,
+    "recall": 0.1619,
+    "f1-score": 0.2112,
+    "support": 210.0
+   },
+   "CONTROLS": {
+    "precision": 0.0941,
+    "recall": 0.2353,
+    "f1-score": 0.1345,
+    "support": 34.0
+   },
+   "AI": {
+    "precision": 0.2763,
+    "recall": 0.525,
+    "f1-score": 0.3621,
+    "support": 120.0
+   },
+   "MODDING": {
+    "precision": 0.1313,
+    "recall": 0.2321,
+    "f1-score": 0.1677,
+    "support": 112.0
+   },
+   "ACHIEVEMENT": {
+    "precision": 0.0556,
+    "recall": 0.2,
+    "f1-score": 0.087,
+    "support": 10.0
+   }
+  }
+ },
+ "test_unseen_games": {
+  "span_macro_f1": 0.2035,
+  "span_micro_f1": 0.3369,
+  "boundary_f1": 1.0,
+  "token_accuracy": 0.3357,
+  "per_type": {
+   "FIX": {
+    "precision": 0.6067,
+    "recall": 0.7848,
+    "f1-score": 0.6843,
+    "support": 1812.0
+   },
+   "KNOWN_ISSUE": {
+    "precision": 0.4286,
+    "recall": 0.1522,
+    "f1-score": 0.2246,
+    "support": 276.0
+   },
+   "NEW_CONTENT": {
+    "precision": 0.5789,
+    "recall": 0.0193,
+    "f1-score": 0.0373,
+    "support": 1141.0
+   },
+   "IMPROVEMENT": {
+    "precision": 0.15,
+    "recall": 0.4865,
+    "f1-score": 0.2293,
+    "support": 629.0
+   },
+   "BALANCE": {
+    "precision": 0.4554,
+    "recall": 0.1099,
+    "f1-score": 0.1771,
+    "support": 464.0
+   },
+   "GAMEPLAY": {
+    "precision": 0.1246,
+    "recall": 0.1914,
+    "f1-score": 0.1509,
+    "support": 418.0
+   },
+   "PERFORMANCE": {
+    "precision": 0.2151,
+    "recall": 0.1266,
+    "f1-score": 0.1594,
+    "support": 158.0
+   },
+   "UI": {
+    "precision": 0.2703,
+    "recall": 0.0887,
+    "f1-score": 0.1336,
+    "support": 451.0
+   },
+   "AUDIO": {
+    "precision": 0.338,
+    "recall": 0.1491,
+    "f1-score": 0.2069,
+    "support": 161.0
+   },
+   "GRAPHICS": {
+    "precision": 0.2125,
+    "recall": 0.1318,
+    "f1-score": 0.1627,
+    "support": 440.0
+   },
+   "LOCALIZATION": {
+    "precision": 0.5098,
+    "recall": 0.5591,
+    "f1-score": 0.5333,
+    "support": 93.0
+   },
+   "MULTIPLAYER": {
+    "precision": 0.1321,
+    "recall": 0.05,
+    "f1-score": 0.0725,
+    "support": 140.0
+   },
+   "CONTROLS": {
+    "precision": 0.1186,
+    "recall": 0.3415,
+    "f1-score": 0.1761,
+    "support": 41.0
+   },
+   "AI": {
+    "precision": 0.125,
+    "recall": 0.1748,
+    "f1-score": 0.1457,
+    "support": 103.0
+   },
+   "MODDING": {
+    "precision": 0.0844,
+    "recall": 0.1461,
+    "f1-score": 0.107,
+    "support": 89.0
+   },
+   "ACHIEVEMENT": {
+    "precision": 0.0909,
+    "recall": 0.04,
+    "f1-score": 0.0556,
+    "support": 25.0
+   }
+  }
+ },
+ "checkpoint": "convaiinnovations/laya",
+ "training_examples": 0,
+ "stage1": "oracle",
+ "eval_sample_size": {
+  "test": 500,
+  "test_unseen_games": 500
+ },
+ "type_definitions": {
+  "FIX": "a bug fix or crash fix",
+  "KNOWN_ISSUE": "a problem that is known but not fixed yet",
+  "NEW_CONTENT": "new content or a new feature that was added",
+  "IMPROVEMENT": "an improvement or quality-of-life change to something that already exists",
+  "BALANCE": "a balance or tuning change to numbers (damage, cost, difficulty, economy)",
+  "GAMEPLAY": "a change to gameplay mechanics or combat",
+  "PERFORMANCE": "a performance, optimization, loading-time or memory change",
+  "UI": "a change to the user interface, menus or HUD",
+  "AUDIO": "a change to sound, music or voice",
+  "GRAPHICS": "a change to graphics, art, animation or visual effects",
+  "LOCALIZATION": "a change to translations, languages or text",
+  "MULTIPLAYER": "a change to multiplayer, online play, servers or networking",
+  "CONTROLS": "a change to controls, input, controllers or key bindings",
+  "AI": "a change to AI, NPC or enemy behaviour",
+  "MODDING": "a change for mods, modding tools or the workshop",
+  "ACHIEVEMENT": "a change to achievements"
+ }
+}
