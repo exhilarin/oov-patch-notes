@@ -1,0 +1,25 @@
+# Developer-written section headers -> change type.
+# Rules are tried in order on the normalized header (lower case, no punctuation, no
+# numbers/version strings); the first matching regular expression wins.
+# Headers that match `skip` (generic or promotional) are not used as labels: those
+# sections are dropped. Headers that match nothing are also dropped.
+skip:
+  - '^(general|changes|other|other changes|misc|miscellaneous|patch notes|changelog|update notes|details|update details|updates?|notes|summary|highlights|overview|tldr|changed|release notes|update release notes|changelist|full patch notes|detailed patch notes|abbreviated patch notes|patch|hotfix|version)$'
+  - 'giveaway|prize|reward|winner|how to (enter|participate)|terms|faq|schedule|sale|discount|offer|stream|twitch|discord|community|merch|roadmap|what.?s next|coming soon|conclusion|thank|feedback|survey|maintenance|server status|disclaimer|event|tournament|contest|spotlight|dev ?blog|development progress'
+labels:
+  KNOWN_ISSUE:  '\bknown (issues?|bugs?|problems?)\b|\bstill investigating\b|\bknown\b'
+  FIX:          '\b(bug ?fix(es|ed)?|fix(es|ed)?|bugs?|resolved( issues)?|crash(es)?( fixes)?|stability|issues? resolved|blockers?)\b'
+  PERFORMANCE:  '\b(performance|optimi[sz]ations?|optimi[sz]ed|fps|loading times?|memory)\b'
+  BALANCE:      '\b(balanc(e|es|ing)|rebalanc\w*|nerfs?|buffs?|tuning|difficulty|economy|tweaks?)\b'
+  UI:           '\b(ui|ux|user interface|interface|hud|menus?|user experience|tooltips?|inventory screen)\b'
+  AUDIO:        '\b(audio|sounds?|sfx|music|voice( acting| over)?|vo|soundtrack)\b'
+  GRAPHICS:     '\b(graphics|visuals?|art|vfx|animations?|lighting|rendering|shaders?|textures?|models?|cosmetics?)\b'
+  LOCALIZATION: '\b(locali[sz]ations?|translations?|languages?|text( fixes)?|typos?)\b'
+  MULTIPLAYER:  '\b(multiplayer|co ?op|online|network(ing)?|netcode|servers?|matchmaking|pvp|lobby|lobbies|cross ?play)\b'
+  CONTROLS:     '\b(controls?|controllers?|input|keybind(ings?|s)?|gamepad|steam deck|mouse|keyboard)\b'
+  AI:           '\b(ai|npcs?|enemy ai|pathfinding|bots?)\b'
+  MODDING:      '\b(modding|mods?|mod support|workshop|scripting|modders?)\b'
+  ACHIEVEMENT:  '\b(achievements?|trophies)\b'
+  GAMEPLAY:     '\b(gameplay|game ?play|mechanics?|combat)\b'
+  NEW_CONTENT:  '\b(new( content| features?| stuff| additions?)?|content|features?|additions?|added)\b'
+  IMPROVEMENT:  '\b(improvements?|improved|quality of life|qol|polish|enhancements?)\b'
