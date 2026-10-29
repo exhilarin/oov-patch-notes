@@ -100,6 +100,7 @@ def main():
     ap.add_argument("--accum", type=int, default=2, help="gradient accumulation steps (4 GB GPU)")
     ap.add_argument("--max-len", type=int, default=512)
     ap.add_argument("--words", type=int, default=256, help="words per window")
+    ap.add_argument("--grad-ckpt", action="store_true", help="gradient checkpointing (saves GPU memory)")
     ap.add_argument("--seed", type=int, default=42)
     args = ap.parse_args()
 
@@ -108,8 +109,11 @@ def main():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     name, group = MODELS[args.model]
     tok = AutoTokenizer.from_pretrained(name, add_prefix_space=True) if "roberta" in name else AutoTokenizer.from_pretrained(name)
+    # fp32 master weights (some checkpoints are stored in fp16); autocast handles the fp16 compute
     model = AutoModelForTokenClassification.from_pretrained(
-        name, num_labels=len(LABELS), id2label=dict(enumerate(LABELS)), label2id=L2I).to(device)
+        name, num_labels=len(LABELS), id2label=dict(enumerate(LABELS)), label2id=L2I, dtype=torch.float32).to(device)
+    if args.grad_ckpt:
+        model.gradient_checkpointing_enable()
     pad = tok.pad_token_id
 
     data = {s: load(s) for s in ("train", "val", "test", "test_unseen_games")}
