@@ -1,0 +1,2014 @@
+{
+ "steps": {
+  "1_raw_announcements": 477597,
+  "2_with_section_headers": 229167,
+  "3_two_or_more_change_types": 35800,
+  "4_english": 35790,
+  "5_after_deduplication": 29784,
+  "6_examples_(chunks)": 39481,
+  "7_change_items": 532761,
+  "8_tokens": 7677885
+ },
+ "top_headers": [
+  {
+   "header": "",
+   "label": "-",
+   "count": 21024
+  },
+  {
+   "header": "bug fixes",
+   "label": "FIX",
+   "count": 17904
+  },
+  {
+   "header": "fixes",
+   "label": "FIX",
+   "count": 9560
+  },
+  {
+   "header": "changes",
+   "label": "-",
+   "count": 6387
+  },
+  {
+   "header": "general",
+   "label": "-",
+   "count": 5780
+  },
+  {
+   "header": "changelog",
+   "label": "-",
+   "count": 5529
+  },
+  {
+   "header": "known issues",
+   "label": "KNOWN_ISSUE",
+   "count": 5291
+  },
+  {
+   "header": "patch notes",
+   "label": "-",
+   "count": 4788
+  },
+  {
+   "header": "gameplay",
+   "label": "GAMEPLAY",
+   "count": 4057
+  },
+  {
+   "header": "bugfixes",
+   "label": "FIX",
+   "count": 3710
+  },
+  {
+   "header": "ui",
+   "label": "UI",
+   "count": 3612
+  },
+  {
+   "header": "improvements",
+   "label": "IMPROVEMENT",
+   "count": 3359
+  },
+  {
+   "header": "new features",
+   "label": "NEW_CONTENT",
+   "count": 3238
+  },
+  {
+   "header": "features",
+   "label": "NEW_CONTENT",
+   "count": 2837
+  },
+  {
+   "header": "balance",
+   "label": "BALANCE",
+   "count": 2647
+  },
+  {
+   "header": "update",
+   "label": "-",
+   "count": 2319
+  },
+  {
+   "header": "misc",
+   "label": "-",
+   "count": 2158
+  },
+  {
+   "header": "other",
+   "label": "-",
+   "count": 2126
+  },
+  {
+   "header": "new content",
+   "label": "NEW_CONTENT",
+   "count": 2122
+  },
+  {
+   "header": "fixed",
+   "label": "FIX",
+   "count": 2111
+  },
+  {
+   "header": "additions",
+   "label": "NEW_CONTENT",
+   "count": 2089
+  },
+  {
+   "header": "other changes",
+   "label": "-",
+   "count": 2050
+  },
+  {
+   "header": "audio",
+   "label": "AUDIO",
+   "count": 1938
+  },
+  {
+   "header": "rewards",
+   "label": "-",
+   "count": 1897
+  },
+  {
+   "header": "balance changes",
+   "label": "BALANCE",
+   "count": 1768
+  },
+  {
+   "header": "added",
+   "label": "NEW_CONTENT",
+   "count": 1629
+  },
+  {
+   "header": "event period",
+   "label": "-",
+   "count": 1571
+  },
+  {
+   "header": "what s next",
+   "label": "-",
+   "count": 1508
+  },
+  {
+   "header": "balancing",
+   "label": "BALANCE",
+   "count": 1425
+  },
+  {
+   "header": "hotfix",
+   "label": "-",
+   "count": 1424
+  },
+  {
+   "header": "weapons",
+   "label": "-",
+   "count": 1413
+  },
+  {
+   "header": "maps",
+   "label": "-",
+   "count": 1352
+  },
+  {
+   "header": "sale duration",
+   "label": "-",
+   "count": 1339
+  },
+  {
+   "header": "see you on the battlefield",
+   "label": "-",
+   "count": 1334
+  },
+  {
+   "header": "content",
+   "label": "NEW_CONTENT",
+   "count": 1326
+  },
+  {
+   "header": "items",
+   "label": "-",
+   "count": 1309
+  },
+  {
+   "header": "new",
+   "label": "NEW_CONTENT",
+   "count": 1302
+  },
+  {
+   "header": "multiplayer",
+   "label": "MULTIPLAYER",
+   "count": 1267
+  },
+  {
+   "header": "for more information on crossout follow these channels",
+   "label": "-",
+   "count": 1263
+  },
+  {
+   "header": "performance",
+   "label": "PERFORMANCE",
+   "count": 1258
+  },
+  {
+   "header": "version",
+   "label": "-",
+   "count": 1258
+  },
+  {
+   "header": "stay up to date by following our pages",
+   "label": "-",
+   "count": 1235
+  },
+  {
+   "header": "miscellaneous",
+   "label": "-",
+   "count": 1197
+  },
+  {
+   "header": "ai",
+   "label": "AI",
+   "count": 1148
+  },
+  {
+   "header": "modding",
+   "label": "MODDING",
+   "count": 1138
+  },
+  {
+   "header": "event details",
+   "label": "-",
+   "count": 1126
+  },
+  {
+   "header": "freestyle team",
+   "label": "-",
+   "count": 1117
+  },
+  {
+   "header": "user interface",
+   "label": "UI",
+   "count": 1102
+  },
+  {
+   "header": "tweaks",
+   "label": "BALANCE",
+   "count": 1051
+  },
+  {
+   "header": "prizes",
+   "label": "-",
+   "count": 1029
+  },
+  {
+   "header": "events",
+   "label": "-",
+   "count": 1019
+  },
+  {
+   "header": "localization",
+   "label": "LOCALIZATION",
+   "count": 1018
+  },
+  {
+   "header": "art",
+   "label": "GRAPHICS",
+   "count": 1014
+  },
+  {
+   "header": "graphics",
+   "label": "GRAPHICS",
+   "count": 1003
+  },
+  {
+   "header": "rules",
+   "label": "-",
+   "count": 964
+  },
+  {
+   "header": "achievements",
+   "label": "ACHIEVEMENT",
+   "count": 951
+  },
+  {
+   "header": "details",
+   "label": "-",
+   "count": 945
+  },
+  {
+   "header": "what s new",
+   "label": "NEW_CONTENT",
+   "count": 913
+  },
+  {
+   "header": "bugs fixed",
+   "label": "FIX",
+   "count": 902
+  },
+  {
+   "header": "how to participate",
+   "label": "-",
+   "count": 893
+  },
+  {
+   "header": "updates",
+   "label": "-",
+   "count": 889
+  },
+  {
+   "header": "note",
+   "label": "-",
+   "count": 880
+  },
+  {
+   "header": "general changes",
+   "label": "-",
+   "count": 871
+  },
+  {
+   "header": "vehicles",
+   "label": "-",
+   "count": 849
+  },
+  {
+   "header": "quality of life",
+   "label": "IMPROVEMENT",
+   "count": 842
+  },
+  {
+   "header": "time",
+   "label": "-",
+   "count": 836
+  },
+  {
+   "header": "missions",
+   "label": "-",
+   "count": 809
+  },
+  {
+   "header": "patch",
+   "label": "-",
+   "count": 800
+  },
+  {
+   "header": "interface",
+   "label": "UI",
+   "count": 789
+  },
+  {
+   "header": "bug fix",
+   "label": "FIX",
+   "count": 788
+  },
+  {
+   "header": "heroes",
+   "label": "-",
+   "count": 783
+  },
+  {
+   "header": "bugs",
+   "label": "FIX",
+   "count": 778
+  },
+  {
+   "header": "when",
+   "label": "-",
+   "count": 766
+  },
+  {
+   "header": "change log",
+   "label": "-",
+   "count": 743
+  },
+  {
+   "header": "sound",
+   "label": "AUDIO",
+   "count": 742
+  },
+  {
+   "header": "discount",
+   "label": "-",
+   "count": 742
+  },
+  {
+   "header": "please note",
+   "label": "-",
+   "count": 741
+  },
+  {
+   "header": "optimizations",
+   "label": "PERFORMANCE",
+   "count": 737
+  },
+  {
+   "header": "notes",
+   "label": "-",
+   "count": 733
+  },
+  {
+   "header": "highlights",
+   "label": "-",
+   "count": 715
+  },
+  {
+   "header": "changed",
+   "label": "-",
+   "count": 707
+  },
+  {
+   "header": "thank you",
+   "label": "-",
+   "count": 704
+  },
+  {
+   "header": "optimization",
+   "label": "PERFORMANCE",
+   "count": 690
+  },
+  {
+   "header": "hey everyone",
+   "label": "-",
+   "count": 665
+  },
+  {
+   "header": "release notes",
+   "label": "-",
+   "count": 661
+  },
+  {
+   "header": "combat",
+   "label": "GAMEPLAY",
+   "count": 647
+  },
+  {
+   "header": "important",
+   "label": "-",
+   "count": 644
+  },
+  {
+   "header": "changelist",
+   "label": "-",
+   "count": 622
+  },
+  {
+   "header": "event time",
+   "label": "-",
+   "count": 612
+  },
+  {
+   "header": "quality of life improvements",
+   "label": "IMPROVEMENT",
+   "count": 608
+  },
+  {
+   "header": "update changelog",
+   "label": "-",
+   "count": 605
+  },
+  {
+   "header": "the war thunder team",
+   "label": "-",
+   "count": 602
+  },
+  {
+   "header": "gameplay changes",
+   "label": "GAMEPLAY",
+   "count": 601
+  },
+  {
+   "header": "world",
+   "label": "-",
+   "count": 584
+  },
+  {
+   "header": "reward",
+   "label": "-",
+   "count": 584
+  },
+  {
+   "header": "quests",
+   "label": "-",
+   "count": 567
+  },
+  {
+   "header": "event",
+   "label": "-",
+   "count": 564
+  },
+  {
+   "header": "maintenance details",
+   "label": "-",
+   "count": 558
+  },
+  {
+   "header": "bug",
+   "label": "FIX",
+   "count": 557
+  },
+  {
+   "header": "skills",
+   "label": "-",
+   "count": 555
+  },
+  {
+   "header": "hello everyone",
+   "label": "-",
+   "count": 551
+  },
+  {
+   "header": "patch note",
+   "label": "-",
+   "count": 551
+  },
+  {
+   "header": "faq",
+   "label": "-",
+   "count": 535
+  },
+  {
+   "header": "bugfix",
+   "label": "FIX",
+   "count": 535
+  },
+  {
+   "header": "update notes",
+   "label": "-",
+   "count": 519
+  },
+  {
+   "header": "full changelog",
+   "label": "-",
+   "count": 511
+  },
+  {
+   "header": "schedule",
+   "label": "-",
+   "count": 504
+  },
+  {
+   "header": "levels",
+   "label": "-",
+   "count": 499
+  },
+  {
+   "header": "crashes",
+   "label": "FIX",
+   "count": 499
+  },
+  {
+   "header": "system",
+   "label": "-",
+   "count": 497
+  },
+  {
+   "header": "updated",
+   "label": "-",
+   "count": 496
+  },
+  {
+   "header": "event duration",
+   "label": "-",
+   "count": 494
+  },
+  {
+   "header": "others",
+   "label": "-",
+   "count": 485
+  },
+  {
+   "header": "new items",
+   "label": "NEW_CONTENT",
+   "count": 480
+  },
+  {
+   "header": "conclusion",
+   "label": "-",
+   "count": 476
+  },
+  {
+   "header": "map",
+   "label": "-",
+   "count": 472
+  },
+  {
+   "header": "characters",
+   "label": "-",
+   "count": 470
+  },
+  {
+   "header": "enemies",
+   "label": "-",
+   "count": 470
+  },
+  {
+   "header": "visuals",
+   "label": "GRAPHICS",
+   "count": 469
+  },
+  {
+   "header": "primary fire",
+   "label": "-",
+   "count": 466
+  },
+  {
+   "header": "game",
+   "label": "-",
+   "count": 465
+  },
+  {
+   "header": "play it now on tabletopia",
+   "label": "-",
+   "count": 465
+  },
+  {
+   "header": "key features",
+   "label": "NEW_CONTENT",
+   "count": 464
+  },
+  {
+   "header": "dungeon fighter online support team",
+   "label": "MULTIPLAYER",
+   "count": 464
+  },
+  {
+   "header": "hello",
+   "label": "-",
+   "count": 463
+  },
+  {
+   "header": "greetings adventurers",
+   "label": "-",
+   "count": 461
+  },
+  {
+   "header": "item mall goodies",
+   "label": "-",
+   "count": 461
+  },
+  {
+   "header": "update details",
+   "label": "-",
+   "count": 460
+  },
+  {
+   "header": "how to enter",
+   "label": "-",
+   "count": 448
+  },
+  {
+   "header": "tier",
+   "label": "-",
+   "count": 445
+  },
+  {
+   "header": "full patch notes",
+   "label": "-",
+   "count": 443
+  },
+  {
+   "header": "playism",
+   "label": "-",
+   "count": 436
+  },
+  {
+   "header": "community",
+   "label": "-",
+   "count": 427
+  },
+  {
+   "header": "indev unstable change log",
+   "label": "-",
+   "count": 426
+  },
+  {
+   "header": "beta",
+   "label": "-",
+   "count": 423
+  },
+  {
+   "header": "server maintenance",
+   "label": "-",
+   "count": 420
+  },
+  {
+   "header": "miscellaneous changes",
+   "label": "-",
+   "count": 419
+  },
+  {
+   "header": "balance adjustments",
+   "label": "BALANCE",
+   "count": 419
+  },
+  {
+   "header": "animations",
+   "label": "GRAPHICS",
+   "count": 417
+  },
+  {
+   "header": "follow our developments on our trello in near real time",
+   "label": "-",
+   "count": 411
+  },
+  {
+   "header": "stability",
+   "label": "FIX",
+   "count": 409
+  },
+  {
+   "header": "level",
+   "label": "-",
+   "count": 408
+  },
+  {
+   "header": "terms",
+   "label": "-",
+   "count": 407
+  },
+  {
+   "header": "server",
+   "label": "MULTIPLAYER",
+   "count": 405
+  },
+  {
+   "header": "situation",
+   "label": "-",
+   "count": 405
+  },
+  {
+   "header": "read the full announcement here",
+   "label": "-",
+   "count": 404
+  },
+  {
+   "header": "hello miners",
+   "label": "-",
+   "count": 403
+  },
+  {
+   "header": "ui ux",
+   "label": "UI",
+   "count": 402
+  },
+  {
+   "header": "sales",
+   "label": "-",
+   "count": 402
+  },
+  {
+   "header": "bugs and fixes",
+   "label": "FIX",
+   "count": 398
+  },
+  {
+   "header": "new weapons",
+   "label": "NEW_CONTENT",
+   "count": 397
+  },
+  {
+   "header": "build",
+   "label": "-",
+   "count": 392
+  },
+  {
+   "header": "join our discord for development updates and community fun",
+   "label": "-",
+   "count": 391
+  },
+  {
+   "header": "crafting",
+   "label": "-",
+   "count": 387
+  },
+  {
+   "header": "general fixes",
+   "label": "FIX",
+   "count": 386
+  },
+  {
+   "header": "event mechanics",
+   "label": "-",
+   "count": 386
+  },
+  {
+   "header": "aircraft",
+   "label": "-",
+   "count": 382
+  },
+  {
+   "header": "ump",
+   "label": "-",
+   "count": 373
+  },
+  {
+   "header": "notice",
+   "label": "-",
+   "count": 372
+  },
+  {
+   "header": "thanks for reading",
+   "label": "-",
+   "count": 368
+  },
+  {
+   "header": "battlerites",
+   "label": "-",
+   "count": 368
+  },
+  {
+   "header": "summary",
+   "label": "-",
+   "count": 367
+  },
+  {
+   "header": "event rewards",
+   "label": "-",
+   "count": 364
+  },
+  {
+   "header": "other improvements",
+   "label": "IMPROVEMENT",
+   "count": 360
+  },
+  {
+   "header": "new fashion item",
+   "label": "NEW_CONTENT",
+   "count": 358
+  },
+  {
+   "header": "change list",
+   "label": "-",
+   "count": 357
+  },
+  {
+   "header": "community roundup",
+   "label": "-",
+   "count": 356
+  },
+  {
+   "header": "maintenance notes",
+   "label": "-",
+   "count": 354
+  },
+  {
+   "header": "campaign",
+   "label": "-",
+   "count": 349
+  },
+  {
+   "header": "what",
+   "label": "-",
+   "count": 348
+  },
+  {
+   "header": "time frame",
+   "label": "-",
+   "count": 346
+  },
+  {
+   "header": "other fixes",
+   "label": "FIX",
+   "count": 345
+  },
+  {
+   "header": "changelog v",
+   "label": "-",
+   "count": 344
+  },
+  {
+   "header": "abilities",
+   "label": "-",
+   "count": 342
+  },
+  {
+   "header": "dear players",
+   "label": "-",
+   "count": 341
+  },
+  {
+   "header": "perks",
+   "label": "-",
+   "count": 340
+  },
+  {
+   "header": "adjustments",
+   "label": "-",
+   "count": 340
+  },
+  {
+   "header": "gameplay improvements",
+   "label": "GAMEPLAY",
+   "count": 340
+  },
+  {
+   "header": "fixed bugs",
+   "label": "FIX",
+   "count": 339
+  },
+  {
+   "header": "translations",
+   "label": "LOCALIZATION",
+   "count": 338
+  },
+  {
+   "header": "animation",
+   "label": "GRAPHICS",
+   "count": 335
+  },
+  {
+   "header": "hi everyone",
+   "label": "-",
+   "count": 335
+  },
+  {
+   "header": "the new earth team",
+   "label": "NEW_CONTENT",
+   "count": 326
+  },
+  {
+   "header": "weekend events",
+   "label": "-",
+   "count": 325
+  },
+  {
+   "header": "alpha",
+   "label": "-",
+   "count": 321
+  },
+  {
+   "header": "item changes",
+   "label": "-",
+   "count": 320
+  },
+  {
+   "header": "the old school team",
+   "label": "-",
+   "count": 320
+  },
+  {
+   "header": "localisation",
+   "label": "LOCALIZATION",
+   "count": 319
+  },
+  {
+   "header": "resolved issues",
+   "label": "FIX",
+   "count": 319
+  },
+  {
+   "header": "attention survivors",
+   "label": "-",
+   "count": 319
+  },
+  {
+   "header": "limited shop",
+   "label": "-",
+   "count": 319
+  },
+  {
+   "header": "ground vehicles",
+   "label": "-",
+   "count": 317
+  },
+  {
+   "header": "bonus crew",
+   "label": "-",
+   "count": 314
+  },
+  {
+   "header": "character",
+   "label": "-",
+   "count": 310
+  },
+  {
+   "header": "equipment",
+   "label": "-",
+   "count": 306
+  },
+  {
+   "header": "design",
+   "label": "-",
+   "count": 306
+  },
+  {
+   "header": "game balance",
+   "label": "BALANCE",
+   "count": 306
+  },
+  {
+   "header": "disclaimer",
+   "label": "-",
+   "count": 306
+  },
+  {
+   "header": "changes and updates",
+   "label": "-",
+   "count": 306
+  },
+  {
+   "header": "overview",
+   "label": "-",
+   "count": 305
+  },
+  {
+   "header": "general improvements",
+   "label": "IMPROVEMENT",
+   "count": 304
+  },
+  {
+   "header": "how",
+   "label": "-",
+   "count": 303
+  },
+  {
+   "header": "d place",
+   "label": "-",
+   "count": 300
+  },
+  {
+   "header": "seat",
+   "label": "-",
+   "count": 300
+  },
+  {
+   "header": "eu",
+   "label": "-",
+   "count": 296
+  },
+  {
+   "header": "interface changes",
+   "label": "UI",
+   "count": 296
+  },
+  {
+   "header": "bug fixed",
+   "label": "FIX",
+   "count": 295
+  },
+  {
+   "header": "major changes",
+   "label": "-",
+   "count": 294
+  },
+  {
+   "header": "tracks",
+   "label": "-",
+   "count": 294
+  },
+  {
+   "header": "units",
+   "label": "-",
+   "count": 294
+  },
+  {
+   "header": "known issue",
+   "label": "KNOWN_ISSUE",
+   "count": 293
+  },
+  {
+   "header": "weekly sale",
+   "label": "-",
+   "count": 293
+  },
+  {
+   "header": "na",
+   "label": "-",
+   "count": 292
+  },
+  {
+   "header": "sounds",
+   "label": "AUDIO",
+   "count": 291
+  },
+  {
+   "header": "slot",
+   "label": "-",
+   "count": 289
+  },
+  {
+   "header": "question",
+   "label": "-",
+   "count": 288
+  },
+  {
+   "header": "general updates",
+   "label": "-",
+   "count": 287
+  },
+  {
+   "header": "fixes improvements",
+   "label": "FIX",
+   "count": 286
+  },
+  {
+   "header": "offworld out",
+   "label": "-",
+   "count": 285
+  },
+  {
+   "header": "soldiers",
+   "label": "-",
+   "count": 284
+  },
+  {
+   "header": "stay up to date",
+   "label": "-",
+   "count": 284
+  },
+  {
+   "header": "sales period",
+   "label": "-",
+   "count": 283
+  },
+  {
+   "header": "fixed issues",
+   "label": "FIX",
+   "count": 283
+  },
+  {
+   "header": "map changes",
+   "label": "-",
+   "count": 282
+  },
+  {
+   "header": "environment",
+   "label": "-",
+   "count": 282
+  },
+  {
+   "header": "maintenance schedule",
+   "label": "-",
+   "count": 280
+  },
+  {
+   "header": "the maintenance will include",
+   "label": "-",
+   "count": 279
+  },
+  {
+   "header": "and more",
+   "label": "-",
+   "count": 278
+  },
+  {
+   "header": "technical",
+   "label": "-",
+   "count": 277
+  },
+  {
+   "header": "new events",
+   "label": "-",
+   "count": 276
+  },
+  {
+   "header": "ended",
+   "label": "-",
+   "count": 276
+  },
+  {
+   "header": "to address the following",
+   "label": "-",
+   "count": 275
+  },
+  {
+   "header": "code",
+   "label": "-",
+   "count": 273
+  },
+  {
+   "header": "new stuff",
+   "label": "NEW_CONTENT",
+   "count": 272
+  },
+  {
+   "header": "howdy",
+   "label": "-",
+   "count": 272
+  },
+  {
+   "header": "before",
+   "label": "-",
+   "count": 270
+  },
+  {
+   "header": "new music",
+   "label": "AUDIO",
+   "count": 269
+  },
+  {
+   "header": "level design",
+   "label": "-",
+   "count": 269
+  },
+  {
+   "header": "times",
+   "label": "-",
+   "count": 268
+  },
+  {
+   "header": "class changes",
+   "label": "-",
+   "count": 268
+  },
+  {
+   "header": "community spotlight",
+   "label": "-",
+   "count": 267
+  },
+  {
+   "header": "controls",
+   "label": "CONTROLS",
+   "count": 266
+  },
+  {
+   "header": "monsters",
+   "label": "-",
+   "count": 266
+  },
+  {
+   "header": "tutorial",
+   "label": "-",
+   "count": 265
+  },
+  {
+   "header": "dear mechanics",
+   "label": "GAMEPLAY",
+   "count": 265
+  },
+  {
+   "header": "scripting",
+   "label": "MODDING",
+   "count": 264
+  },
+  {
+   "header": "learn more",
+   "label": "-",
+   "count": 262
+  },
+  {
+   "header": "changelog alpha build",
+   "label": "-",
+   "count": 261
+  },
+  {
+   "header": "developer comments",
+   "label": "-",
+   "count": 261
+  },
+  {
+   "header": "how it works",
+   "label": "-",
+   "count": 258
+  },
+  {
+   "header": "asia",
+   "label": "-",
+   "count": 258
+  },
+  {
+   "header": "contents",
+   "label": "-",
+   "count": 258
+  },
+  {
+   "header": "twitch drops",
+   "label": "-",
+   "count": 257
+  },
+  {
+   "header": "we re also active on twitter",
+   "label": "-",
+   "count": 257
+  },
+  {
+   "header": "roadmap",
+   "label": "-",
+   "count": 256
+  },
+  {
+   "header": "development progress",
+   "label": "-",
+   "count": 256
+  },
+  {
+   "header": "answer",
+   "label": "-",
+   "count": 256
+  },
+  {
+   "header": "hello riftbreakers",
+   "label": "-",
+   "count": 255
+  },
+  {
+   "header": "item",
+   "label": "-",
+   "count": 253
+  },
+  {
+   "header": "conditions",
+   "label": "-",
+   "count": 253
+  },
+  {
+   "header": "this bundle is available in our web shop",
+   "label": "-",
+   "count": 253
+  },
+  {
+   "header": "bug fixes and improvements",
+   "label": "FIX",
+   "count": 252
+  },
+  {
+   "header": "degenerals",
+   "label": "-",
+   "count": 252
+  },
+  {
+   "header": "performance improvements",
+   "label": "PERFORMANCE",
+   "count": 251
+  },
+  {
+   "header": "new features content improvements",
+   "label": "NEW_CONTENT",
+   "count": 247
+  },
+  {
+   "header": "the mabinogi team",
+   "label": "-",
+   "count": 246
+  },
+  {
+   "header": "winners selected via community votes",
+   "label": "-",
+   "count": 245
+  },
+  {
+   "header": "t",
+   "label": "-",
+   "count": 245
+  },
+  {
+   "header": "gui",
+   "label": "-",
+   "count": 245
+  },
+  {
+   "header": "winners selected by our judges",
+   "label": "-",
+   "count": 244
+  },
+  {
+   "header": "new additions",
+   "label": "NEW_CONTENT",
+   "count": 244
+  },
+  {
+   "header": "visual",
+   "label": "GRAPHICS",
+   "count": 242
+  },
+  {
+   "header": "improvement",
+   "label": "IMPROVEMENT",
+   "count": 242
+  },
+  {
+   "header": "tournaments",
+   "label": "-",
+   "count": 241
+  },
+  {
+   "header": "reasons",
+   "label": "-",
+   "count": 241
+  },
+  {
+   "header": "list of update changes",
+   "label": "-",
+   "count": 241
+  },
+  {
+   "header": "requirements",
+   "label": "-",
+   "count": 240
+  },
+  {
+   "header": "vehicle history",
+   "label": "-",
+   "count": 240
+  },
+  {
+   "header": "duration",
+   "label": "-",
+   "count": 238
+  },
+  {
+   "header": "latest update",
+   "label": "-",
+   "count": 235
+  },
+  {
+   "header": "commanders",
+   "label": "-",
+   "count": 234
+  },
+  {
+   "header": "physics",
+   "label": "-",
+   "count": 232
+  },
+  {
+   "header": "skins",
+   "label": "-",
+   "count": 231
+  },
+  {
+   "header": "winners",
+   "label": "-",
+   "count": 230
+  },
+  {
+   "header": "matchmaking",
+   "label": "MULTIPLAYER",
+   "count": 230
+  },
+  {
+   "header": "miscellany",
+   "label": "-",
+   "count": 230
+  },
+  {
+   "header": "singleplayer",
+   "label": "-",
+   "count": 229
+  },
+  {
+   "header": "changes fixes",
+   "label": "FIX",
+   "count": 229
+  },
+  {
+   "header": "wrap it up",
+   "label": "-",
+   "count": 228
+  },
+  {
+   "header": "game design tweaks",
+   "label": "BALANCE",
+   "count": 228
+  },
+  {
+   "header": "weekend special offer",
+   "label": "-",
+   "count": 226
+  },
+  {
+   "header": "contact us",
+   "label": "-",
+   "count": 226
+  },
+  {
+   "header": "news",
+   "label": "-",
+   "count": 224
+  },
+  {
+   "header": "update information",
+   "label": "-",
+   "count": 223
+  },
+  {
+   "header": "how does it work",
+   "label": "-",
+   "count": 222
+  },
+  {
+   "header": "new maps",
+   "label": "NEW_CONTENT",
+   "count": 222
+  },
+  {
+   "header": "item name",
+   "label": "-",
+   "count": 222
+  },
+  {
+   "header": "edit",
+   "label": "-",
+   "count": 221
+  },
+  {
+   "header": "campaigns",
+   "label": "-",
+   "count": 221
+  },
+  {
+   "header": "stay in the loop",
+   "label": "-",
+   "count": 221
+  },
+  {
+   "header": "event crew",
+   "label": "-",
+   "count": 221
+  },
+  {
+   "header": "challenges",
+   "label": "-",
+   "count": 220
+  },
+  {
+   "header": "quest",
+   "label": "-",
+   "count": 220
+  },
+  {
+   "header": "anvil game studios",
+   "label": "-",
+   "count": 220
+  },
+  {
+   "header": "minor changes",
+   "label": "-",
+   "count": 219
+  },
+  {
+   "header": "mechanics",
+   "label": "GAMEPLAY",
+   "count": 217
+  },
+  {
+   "header": "avatars",
+   "label": "-",
+   "count": 217
+  },
+  {
+   "header": "game modes",
+   "label": "-",
+   "count": 216
+  },
+  {
+   "header": "future content",
+   "label": "NEW_CONTENT",
+   "count": 215
+  },
+  {
+   "header": "ships",
+   "label": "-",
+   "count": 214
+  },
+  {
+   "header": "client",
+   "label": "-",
+   "count": 214
+  },
+  {
+   "header": "steam",
+   "label": "-",
+   "count": 213
+  },
+  {
+   "header": "content updates",
+   "label": "NEW_CONTENT",
+   "count": 213
+  },
+  {
+   "header": "type",
+   "label": "-",
+   "count": 213
+  },
+  {
+   "header": "pvp",
+   "label": "MULTIPLAYER",
+   "count": 212
+  },
+  {
+   "header": "main features",
+   "label": "NEW_CONTENT",
+   "count": 212
+  },
+  {
+   "header": "day",
+   "label": "-",
+   "count": 211
+  },
+  {
+   "header": "fixes and improvements",
+   "label": "FIX",
+   "count": 211
+  },
+  {
+   "header": "this pack includes",
+   "label": "-",
+   "count": 211
+  },
+  {
+   "header": "pvp world rota",
+   "label": "MULTIPLAYER",
+   "count": 211
+  },
+  {
+   "header": "general bug fixes",
+   "label": "FIX",
+   "count": 210
+  },
+  {
+   "header": "spotlight",
+   "label": "-",
+   "count": 209
+  },
+  {
+   "header": "cards",
+   "label": "-",
+   "count": 209
+  },
+  {
+   "header": "coming soon",
+   "label": "-",
+   "count": 208
+  },
+  {
+   "header": "entries",
+   "label": "-",
+   "count": 207
+  },
+  {
+   "header": "game updates",
+   "label": "-",
+   "count": 206
+  },
+  {
+   "header": "event schedule",
+   "label": "-",
+   "count": 206
+  },
+  {
+   "header": "qol",
+   "label": "IMPROVEMENT",
+   "count": 206
+  },
+  {
+   "header": "developer note",
+   "label": "-",
+   "count": 206
+  },
+  {
+   "header": "visual improvements",
+   "label": "GRAPHICS",
+   "count": 204
+  },
+  {
+   "header": "cosmetics",
+   "label": "GRAPHICS",
+   "count": 204
+  },
+  {
+   "header": "known bugs",
+   "label": "KNOWN_ISSUE",
+   "count": 202
+  },
+  {
+   "header": "berserker",
+   "label": "-",
+   "count": 202
+  },
+  {
+   "header": "new god skins",
+   "label": "NEW_CONTENT",
+   "count": 201
+  },
+  {
+   "header": "story",
+   "label": "-",
+   "count": 200
+  },
+  {
+   "header": "server downtime",
+   "label": "MULTIPLAYER",
+   "count": 200
+  },
+  {
+   "header": "etc",
+   "label": "-",
+   "count": 200
+  },
+  {
+   "header": "hotfixes",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "join the community",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "wishlist now",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "new feature",
+   "label": "NEW_CONTENT",
+   "count": 199
+  },
+  {
+   "header": "stay tuned",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "improved",
+   "label": "IMPROVEMENT",
+   "count": 199
+  },
+  {
+   "header": "am pt utc",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "cheers from betadwarf",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "join other survivors",
+   "label": "-",
+   "count": 199
+  },
+  {
+   "header": "introduction",
+   "label": "-",
+   "count": 198
+  },
+  {
+   "header": "new skins",
+   "label": "NEW_CONTENT",
+   "count": 198
+  },
+  {
+   "header": "weapon",
+   "label": "-",
+   "count": 197
+  },
+  {
+   "header": "big changes",
+   "label": "-",
+   "count": 197
+  },
+  {
+   "header": "where",
+   "label": "-",
+   "count": 197
+  },
+  {
+   "header": "ui improvements",
+   "label": "UI",
+   "count": 196
+  },
+  {
+   "header": "captains",
+   "label": "-",
+   "count": 196
+  },
+  {
+   "header": "q",
+   "label": "-",
+   "count": 195
+  },
+  {
+   "header": "steamvr",
+   "label": "-",
+   "count": 195
+  },
+  {
+   "header": "discord",
+   "label": "-",
+   "count": 194
+  },
+  {
+   "header": "bug fixes improvements",
+   "label": "FIX",
+   "count": 194
+  },
+  {
+   "header": "hi pioneers",
+   "label": "-",
+   "count": 194
+  },
+  {
+   "header": "important notes",
+   "label": "-",
+   "count": 193
+  },
+  {
+   "header": "survivors",
+   "label": "-",
+   "count": 193
+  },
+  {
+   "header": "removals",
+   "label": "-",
+   "count": 193
+  },
+  {
+   "header": "st alpha",
+   "label": "-",
+   "count": 192
+  },
+  {
+   "header": "yours the door dev team",
+   "label": "-",
+   "count": 192
+  },
+  {
+   "header": "feedback",
+   "label": "-",
+   "count": 191
+  },
+  {
+   "header": "monster changes",
+   "label": "-",
+   "count": 191
+  },
+  {
+   "header": "battle on",
+   "label": "-",
+   "count": 191
+  },
+  {
+   "header": "other updates",
+   "label": "-",
+   "count": 190
+  },
+  {
+   "header": "mission",
+   "label": "-",
+   "count": 189
+  },
+  {
+   "header": "did you know",
+   "label": "-",
+   "count": 189
+  },
+  {
+   "header": "how to join",
+   "label": "-",
+   "count": 187
+  },
+  {
+   "header": "controller support",
+   "label": "CONTROLS",
+   "count": 187
+  },
+  {
+   "header": "art team",
+   "label": "GRAPHICS",
+   "count": 186
+  },
+  {
+   "header": "hello deadsiders",
+   "label": "-",
+   "count": 186
+  },
+  {
+   "header": "event faction",
+   "label": "-",
+   "count": 186
+  },
+  {
+   "header": "shop",
+   "label": "-",
+   "count": 185
+  },
+  {
+   "header": "online",
+   "label": "MULTIPLAYER",
+   "count": 185
+  },
+  {
+   "header": "list of changes",
+   "label": "-",
+   "count": 185
+  },
+  {
+   "header": "cars",
+   "label": "-",
+   "count": 185
+  },
+  {
+   "header": "new map",
+   "label": "NEW_CONTENT",
+   "count": 182
+  },
+  {
+   "header": "user experience",
+   "label": "UI",
+   "count": 182
+  },
+  {
+   "header": "pc",
+   "label": "-",
+   "count": 181
+  },
+  {
+   "header": "welcome to the h war thunder steam screenshot competition",
+   "label": "-",
+   "count": 181
+  },
+  {
+   "header": "overkill tobias",
+   "label": "-",
+   "count": 181
+  },
+  {
+   "header": "hello stalkers",
+   "label": "-",
+   "count": 181
+  },
+  {
+   "header": "your support makes these updates possible",
+   "label": "-",
+   "count": 181
+  },
+  {
+   "header": "engine",
+   "label": "-",
+   "count": 180
+  },
+  {
+   "header": "settings",
+   "label": "-",
+   "count": 180
+  },
+  {
+   "header": "new legend rotation",
+   "label": "NEW_CONTENT",
+   "count": 180
+  },
+  {
+   "header": "ending events",
+   "label": "-",
+   "count": 180
+  },
+  {
+   "header": "see you soon and good terraforming",
+   "label": "-",
+   "count": 180
+  },
+  {
+   "header": "team freestyle",
+   "label": "-",
+   "count": 180
+  },
+  {
+   "header": "shop update",
+   "label": "-",
+   "count": 179
+  },
+  {
+   "header": "customization",
+   "label": "-",
+   "count": 179
+  },
+  {
+   "header": "npcs",
+   "label": "AI",
+   "count": 179
+  },
+  {
+   "header": "sale period",
+   "label": "-",
+   "count": 179
+  },
+  {
+   "header": "greetings survivors",
+   "label": "-",
+   "count": 179
+  },
+  {
+   "header": "got winter is coming team",
+   "label": "-",
+   "count": 179
+  },
+  {
+   "header": "season",
+   "label": "-",
+   "count": 178
+  },
+  {
+   "header": "update highlights",
+   "label": "-",
+   "count": 178
+  },
+  {
+   "header": "what to expect",
+   "label": "-",
+   "count": 177
+  }
+ ]
+}
