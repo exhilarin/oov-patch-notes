@@ -1,4 +1,3 @@
-[NURI_TAYFUN_AKBENIZ_210911043_akbenizt.md](https://github.com/user-attachments/files/34235950/NURI_TAYFUN_AKBENIZ_210911043_akbenizt.md)
 # Nuri Tayfun Akbeniz (210911043, @akbenizt)
 
 **Role:** concept finder: problem definition, label set, metric and method choices, related work.
